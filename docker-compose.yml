@@ -1,6 +1,7 @@
 version: '3'
 services:
   app:
+    image: infrastructure-registry.i9s5px.easypanel.host/davidvoegtle-online/flask
     build: flask
     volumes:
       - app:/app
